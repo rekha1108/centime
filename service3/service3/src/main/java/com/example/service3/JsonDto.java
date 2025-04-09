@@ -7,7 +7,7 @@ public class JsonDto {
     @NotBlank(message = "First name is required")
     private String firstName;
 
-    @NotBlank(message = "First name is required")
+    @NotBlank(message = "Second name is required")
     private String secondName;
     public JsonDto() {
     }
